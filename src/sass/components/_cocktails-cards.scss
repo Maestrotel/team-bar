@@ -1,0 +1,162 @@
+.cocktails-description {
+    fill: var(--primary-accent-color);
+}
+
+.cocktails {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.cocktails-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cocktails-cards__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--primary-accent-color);
+    border-radius: 4px;
+}
+
+.cocktails__photo {
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    height: 278px;
+}
+
+.cocktails-description {
+    width: 100%;
+    padding-top: 48px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-bottom: 24px;
+}
+
+.cocktails-head {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.6;
+    text-align: center;
+
+    margin-bottom: 16px;
+}
+
+//-----------------------------Ingredients--------------------start
+.cocktails-cards__ingredients {
+    width: 100%;
+    padding: 20px;
+}
+
+.cocktails-head__ingredients {
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.cocktails-description__ingredients {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: var(--secondary-text-color);
+    margin-bottom: 20px;
+}
+
+.cocktails-buttons__ingredients {
+    gap: 20px;
+}
+
+
+//--------------------------------ingredients-----------------end
+
+.cocktails-buttons__wrapper {
+    position: relative;
+}
+
+.cocktails-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.active-icon {
+    fill: var(--primary-accent-color);
+}
+
+@media screen and(min-width: 768px) {
+    .cocktails-cards {
+        justify-content: flex-start;
+        gap: 32px;
+    }
+
+    .cocktails-cards__item {
+        flex-basis: calc((100% - 32px) / 2);
+    }
+
+    .cocktails__photo {
+        height: 395px;
+    }
+
+    .cocktails {
+        padding-top: 55px;
+    }
+
+    .cocktails-description {
+        padding: 20px;
+    }
+
+    .cocktails-head {
+        font-size: 28px;
+        line-height: 1.17;
+
+        margin-bottom: 25px;
+    }
+
+    .cocktails-description__icon-heart {
+        margin-left: 4px;
+    }
+
+    .cocktails-buttons__ingredients {
+        gap: 10px;
+    }
+
+    .cocktails-description__ingredients {
+        font-size: 16px;
+    }
+}
+
+@media screen and(min-width: 1280px) {
+    .cocktails-cards__item {
+        flex-basis: calc((100% - 64px) / 3);
+    }
+
+    .cocktails {
+        padding-top: 52px;
+    }
+
+    .cocktails-description {
+        padding-top: 20px;
+        padding-left: 28px;
+        padding-right: 28px;
+        padding-bottom: 28px;
+    }
+
+    .cocktails-head {
+        font-size: 32px;
+        line-height: 1.18;
+        margin-bottom: 27px;
+    }
+
+    .cocktails-buttons__ingredients {
+        gap: 10px;
+    }
+    
+    .cocktails-description__ingredients {
+        font-size: 16px;
+    }
+}

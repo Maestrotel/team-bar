@@ -1,0 +1,18 @@
+.footer {
+  height: 110px;
+  background-color: var(--primary-accent-color);
+}
+
+.footer__copyright {
+  text-align: center;
+  padding-top: 50px;
+  
+  color: white;
+  font-size: 18px;
+}
+
+.footer__copyright-style {
+  color: var(--primary-white-color);
+  background-image: linear-gradient(to right, red, fuchsia);
+  border-radius: 50%;
+}

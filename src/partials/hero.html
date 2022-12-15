@@ -1,0 +1,32 @@
+<section class="hero">
+  <div class="hero-container container">
+    <div class="hero__wrap">
+      <h1 class="hero__title">A party without cocktails is not like a party</h1>
+      <p class="hero__text-desktop">Search your favorite cocktail by ABC</p>
+      <ul class="hero__keyset js-hero-desktop"></ul>
+    </div>
+    <picture class="hero__picture">
+      <source
+        srcset="./images/hero-img-desktop.png"
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="./images/hero-img-tablet.png"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="./images/hero-img-mobile.png"
+        media="(max-width: 767px)"
+      />
+      <img
+        src="./images/hero-img-mobile.png"
+        class="hero__cocktail-pictures"
+        alt="cocktail"
+      />
+    </picture>
+    <p class="hero__text-mobile">Search your favorite cocktail by ABC</p>
+    <div class="hero__form-select">
+      <div id="select-2" class="wrap-itc-select"></div>
+    </div>
+  </div>
+</section>

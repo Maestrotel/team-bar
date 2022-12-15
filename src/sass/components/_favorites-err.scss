@@ -1,0 +1,33 @@
+.favorite-error__text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 20px;
+  line-height: 3;
+  margin: 0 auto;
+  color: var(--primary-text-color);
+  width: 239px;
+  margin-bottom: 120px;
+  text-align: center;
+}
+
+.favorite-ingredients__area {
+  margin-bottom: 60px;
+}
+
+
+@media screen and(min-width: 768px) {
+  .favorite-error__text {
+    font-size: 24px;
+    line-height: 2.5;
+    width: 296px;
+    margin-bottom: 500px;
+  }
+}
+
+@media screen and(min-width: 1280px) {
+  .favorite-error__text {
+    font-size: 32px;
+    line-height: 2.3;
+    width: 385px;
+  }
+}

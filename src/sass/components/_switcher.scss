@@ -1,0 +1,219 @@
+.dark-theme {
+  background-color: var(--primary-text-color);
+  color: var(--light-on-dark);
+
+  .hero__key-btn {
+    background-color: var(--primary-text-color);
+  }
+
+  .form-search-tablet__btn-submit {
+    background-color: var(--primary-text-color);
+  }
+
+  .form-search-tablet__input {
+    background-color: var(--primary-text-color);
+  }
+
+  .burger-menu__open-btn-icon {
+    fill: var(--light-on-dark);
+  }
+
+  .burger-menu__open-btn {
+    background-color: var(--primary-text-color);
+  }
+
+  .hero__text-mobile {
+    color: var(--light-on-dark);
+  }
+
+  .icon-heart-not-active {
+    fill: var(--primary-text-color);
+  }
+
+  .active {
+    background-color: var(--primary-text-color);
+  }
+
+  .pagination__numb {
+    color: var(--light-on-dark);
+    background-color: var(--primary-text-color);
+
+    &:hover {
+      background-color: var(--secondary-accent-color);
+    }
+
+    &:active {
+      background-color: var(--primary-accent-color);
+    }
+  }
+
+  //   .pagination__active{
+  //     background-color: var(--primary-accent-color);
+  //     color: var(--primary-text-color);
+  //   }
+
+  .site-nav__link {
+    color: var(--light-on-dark);
+  }
+
+  .hero__text-desktop {
+    color: var(--light-on-dark);
+  }
+
+  .dropdown__content {
+    border: 1px solid var(--light-on-dark);
+  }
+
+  .drop-down__link {
+    background-color: var(--primary-text-color);
+    color: var(--light-on-dark);
+
+    &:hover {
+      color: var(--primary-text-color);
+    }
+  }
+
+  .pagination__active {
+    background-color: var(--primary-text-color);
+  }
+
+  .pagination__active {
+    background-color: var(--primary-accent-color);
+    color: var(--primary-text-color);
+  }
+
+  .drop-down__link:not(:last-child) {
+    border-bottom: 1px solid var(--light-on-dark);
+  }
+
+  .modal-drink {
+    background-color: var(--primary-text-color);
+  }
+
+  .modal-ingredients {
+    color: var(--light-on-dark);
+  }
+
+  .modal-cocktail__item-link {
+    color: var(--light-on-dark);
+  }
+
+  .modal-description__text-drink {
+    color: var(--light-on-dark);
+  }
+
+  .modal-cocktail__close-btn {
+    background-color: var(--primary-text-color);
+  }
+
+  .modal-cocktail__close-icon {
+    fill: var(--light-on-dark);
+  }
+
+  .modal-hero__drink {
+    color: var(--light-on-dark);
+  }
+
+  .modal-description__drink {
+    color: var(--light-on-dark);
+  }
+
+  .modal {
+    background-color: var(--primary-text-color);
+  }
+
+  .modal-hero {
+    color: var(--light-on-dark);
+  }
+
+  .modal-description {
+    color: var(--light-on-dark);
+  }
+
+  .modal-description__text {
+    color: var(--light-on-dark);
+  }
+
+  .modal__close-btn {
+    background-color: var(--primary-text-color);
+  }
+
+  .modal__close-icon{
+    fill: var(--light-on-dark);
+  }
+
+
+//   --------------Favorite---------------
+.favorite-error__text{
+    color: var(--light-on-dark);
+}
+
+// ----------------small search------------------
+.burger-menu{
+    background-color: var(--primary-text-color);
+}
+
+.burger-menu__close-btn{
+  background-color: var(--primary-text-color);
+}
+
+.burger-menu__close-icon{
+  fill: var(--light-on-dark);
+}
+
+.form-search__btn-submit{
+  background-color: var(--primary-text-color);
+}
+
+.form-search__input{
+  background-color: var(--primary-text-color);
+}
+
+.site-nav-burger__link{
+  color: var(--light-on-dark);
+}
+
+.site-nav-burger__icon{
+  fill: var(--light-on-dark);
+}
+
+.drop-down-burger__link{
+  color: var(--light-on-dark);
+  background-color: var(--primary-text-color);
+
+  &:hover{
+    color: var(--primary-text-color);
+  }
+
+  &:active{
+    color: var(--primary-text-color);
+    background-color: var(--primary-accent-color);
+  }
+}
+
+.dropdown-burger__content{
+  border: 1px solid var(--light-on-dark);
+}
+
+.drop-down-burger__link:not(:last-child) {
+  border-bottom: 1px solid var(--light-on-dark);
+}
+
+// -------------switcher label ----------
+
+.change-theme__desktop-light{
+  color: var(--light-on-dark);
+}
+
+.change-theme__desktop-dark{
+  color: var(--primary-accent-color);
+}
+
+.itc-select__toggle{
+  background-color: var(--primary-text-color);
+}
+
+.itc-select__options{
+  background-color: var(--primary-text-color);
+}
+}

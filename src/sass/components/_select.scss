@@ -1,0 +1,117 @@
+.wrap-itc-select{
+  position: relative;
+}
+.itc-select {
+  position: relative;
+  width: 93px;
+  height: 34px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.itc-select__toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  padding-right: 8px;
+  font-family: 'Poppins';
+  padding-left: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.35;
+  color: var(--primary-accent-color);
+  border: 1px solid var(--primary-accent-color);
+  border-radius: 4px;
+  background-color: var(--secondary-white-color);
+  width: 93px;
+  height: 34px;
+  user-select: none;
+}
+
+// .itc-select__icon{
+//   position: absolute;
+//   bottom: 9px;
+//   left: 65px;
+// }
+.itc-select__toggle::after {
+  flex-shrink: 0;
+  width: 16px;
+  height: 14px;
+  margin-left: 1rem;
+  background: url('../images/arrow-down.svg') no-repeat right;
+  content: '';
+}
+
+.itc-select__toggle:focus {
+  outline: none;
+}
+
+// .itc-select_show .itc-select__toggle::after {
+//   transform: rotate(180deg);
+// }
+
+.itc-select__dropdown {
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  display: none;
+  max-height: 84px;
+  overflow-y: auto;
+  border: 1px solid var(--primary-accent-color);
+  border-radius: 4px;
+  background-color: var(--secondary-white-color);
+}
+
+.itc-select_show .itc-select__dropdown {
+  display: block;
+}
+
+.itc-select_show .itc-select__backdrop {
+  display: block;
+}
+
+.itc-select__options {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 1.5;
+  color: var(--secondary-text-color);
+}
+
+.itc-select__option {
+  // padding: 6.5px 0 6.5px 10px;
+  padding: 0.375rem 0.75rem;
+}
+
+// .itc-select__option_selected {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   // background-color: #e1f5fe;
+// }
+
+// .itc-select__option_selected::after {
+//   width: 0.75rem;
+//   height: 0.75rem;
+//   color: #0277bd;
+//   background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" height="100" width="100" class="svg-inline--fa fa-check fa-w-16" data-icon="check" data-prefix="fas" aria-hidden="true"%3E%3Cpath d="M33.964 85.547l-32.5-32.251a4.935 4.935 0 010-7.017l7.071-7.017a5.027 5.027 0 017.071 0L37.5 60.987l46.894-46.534a5.028 5.028 0 017.07 0l7.072 7.017a4.935 4.935 0 010 7.017l-57.5 57.06a5.027 5.027 0 01-7.072 0z" fill="%230277bd"/%3E%3C/svg%3E');
+//   background-size: cover;
+//   content: '';
+// }
+
+.itc-select__option:hover {
+  color: var(--primary-accent-color);
+  transition: color var(--transition-dur-and-func);
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px){
+  .hero__form-select{
+    display: none;
+  }
+}

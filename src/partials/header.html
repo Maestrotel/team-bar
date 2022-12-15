@@ -1,0 +1,143 @@
+<header class="page-header">
+  <div class="container page-header__container">
+    <nav class="menu">
+      <a href="./index.html" class="logo">
+        <img
+          class="logo-img"
+          src="./images/logo.png"
+          alt="Martini glass"
+          width="123.35"
+          height="34"
+        />
+      </a>
+      <ul class="site-nav list">
+        <li class="site-nav__item">
+          <a href="./index.html" class="site-nav__link site-nav__link_current"
+            >Home</a
+          >
+        </li>
+        <li class="site-nav__item">
+          <div class="dropdown">
+            <a class="site-nav__link link">Favorite</a>
+
+            <div class="dropdown__content">
+              <a
+                class="drop-down__link"
+                href="./favorites.html"
+                data-page-cocktails
+                >Favorite cocktails</a
+              >
+              <a
+                class="drop-down__link"
+                href="./favorites.html"
+                data-page-ingredients
+                >Favorite ingredients</a
+              >
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <form class="form-search-tablet js-form-search">
+      <button type="submit" class="form-search-tablet__btn-submit">
+        <svg class="form-search-tablet__icon" width="24" height="24">
+          <use href="./images/sprite.svg#search"></use>
+        </svg>
+      </button>
+      <input
+        type="text"
+        class="form-search-tablet__input"
+        name="searchInput"
+        placeholder="Search"
+        required
+      />
+    </form>
+    <div class="wrap-change-theme__desktop">
+      <span class="change-theme__desktop-light">Light</span>
+      <!-- <svg class="change-theme__desktop-switcher" width="40" height="20">
+        <use href="./images/sprite.svg#switcher"></use>
+      </svg> -->
+      <label class="switch">
+        <input type="checkbox" />
+        <span class="slider round"></span>
+      </label>
+      <span class="change-theme__desktop-dark">Dark</span>
+    </div>
+    <button type="button" class="burger-menu__open-btn">
+      <svg class="burger-menu__open-btn-icon" width="30" height="16">
+        <use href="./images/sprite.svg#burger"></use>
+      </svg>
+    </button>
+    <div class="burger-menu visually-hidden">
+      <a href="./index.html" class="burger-menu__logo">
+        <img
+          class="burger-menu__logo-img"
+          src="./images/logo.png"
+          alt="Martini glass"
+          width="156"
+          height="43"
+        />
+      </a>
+      <div class="wrap-change-theme">
+        <span class="change-theme-light">Light</span>
+        <!-- <svg class="change-theme-switcher" width="40" height="20">
+          <use href="./images/sprite.svg#switcher"></use>
+        </svg> -->
+        <label class="switch">
+          <input type="checkbox" />
+          <span class="slider round"></span>
+        </label>
+        <span class="change-theme-dark">Dark</span>
+      </div>
+
+      <button type="button" class="burger-menu__close-btn">
+        <svg class="burger-menu__close-icon" width="18" height="18">
+          <use href="./images/sprite.svg#close"></use>
+        </svg>
+      </button>
+      <form class="form-search js-form-search">
+        <button type="submit" class="form-search__btn-submit">
+          <svg class="form-search__icon" width="24" height="24">
+            <use href="./images/sprite.svg#search"></use>
+          </svg>
+        </button>
+        <input
+          type="text"
+          class="form-search__input"
+          name="searchInput"
+          placeholder="Search"
+          required
+        />
+      </form>
+      <ul class="site-nav-burger list">
+        <li class="site-nav-burger__item">
+          <a href="./index.html" class="site-nav-burger__link link">Home</a>
+        </li>
+        <li class="site-nav-burger__item">
+          <div class="dropdown-burger">
+            <a class="site-nav-burger__link link site-nav-burger__link-favorite"
+              >Favorite</a
+            >
+            <svg class="site-nav-burger__icon" width="20" height="12">
+              <use href="./images/sprite.svg#arrow-down"></use>
+            </svg>
+            <div class="dropdown-burger__content">
+              <a
+                class="drop-down-burger__link"
+                href="./favorites.html"
+                data-page-cocktails
+                >Favorite cocktails</a
+              >
+              <a
+                class="drop-down-burger__link"
+                href="./favorites.html"
+                data-page-ingredients
+                >Favorite ingredients</a
+              >
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>

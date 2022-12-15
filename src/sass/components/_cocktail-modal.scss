@@ -1,0 +1,196 @@
+.backdrop .modal-drink {
+  overflow-y: auto;
+  position: relative;
+  width: 320px;
+  height: fit-content;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: var(--secondary-white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.modal-cocktail__close-btn {
+  width: 32px;
+  height: 32px;
+  background-color: var(--secondary-white-color);
+  border: none;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.modal-cocktail__close-icon {
+  margin-right: 6px;
+  margin-top: 6px;
+}
+
+.modal-hero__drink {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 1.19;
+  color: var(--primary-text-color);
+}
+
+.modal-description__drink {
+  margin-bottom: 20px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.62;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+
+.modal-description__text-drink {
+  width: 275px;
+  margin-bottom: 32px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--secondary-text-color);
+}
+
+.modal-images {
+  margin-bottom: 22px;
+}
+
+.modal-ingredients {
+  margin-bottom: 8px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #000917;
+}
+
+.modal-ingredients__cocktail {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+  margin-bottom: 8px;
+}
+
+.modal-cocktail__drink {
+  margin-bottom: 32px;
+  cursor: pointer;
+}
+
+.modal-cocktail__item-drink .modal-cocktail__item-link {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--secondary-text-color);
+  transition: background-color var(--transition-dur-and-func);
+
+  &:hover,
+  &:focus {
+    color: var(--primary-accent-color);
+  }
+}
+
+.modal-wrapper__btn-drink {
+  background-color: var(--secondary-accent-color);
+  border: none;
+  color: var(--secondary-white-color);
+  border-radius: 4px;
+  padding: 12px 0px;
+  margin-bottom: 40px;
+  transition: background-color var(--transition-dur-and-func);
+
+  &:hover {
+    background-color: var(--primary-white-color);
+    color: var(--primary-accent-color);
+  }
+
+  &:active {
+    background-color: var(--primary-accent-color);
+    color: var(--secondary-white-color);
+  }
+}
+
+.modal-wrapper__text-drink {
+  padding: 12px 24px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+@media screen and (min-width: 768px) {
+  .backdrop .modal-drink {
+    width: 715px;
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
+  .modal-images {
+    width: 288px;
+    height: 320px;
+    border-radius: 0px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+  }
+
+  .modal-hero__drink {
+    margin-left: 292px;
+    margin-bottom: 0px;
+  }
+
+  .modal-description__drink {
+    margin-top: 264px;
+  }
+
+  .modal-description__text-drink {
+    width: 615px;
+    margin-bottom: 40px;
+  }
+
+  .modal-ingredients {
+    position: absolute;
+    top: 100px;
+    left: 320px;
+  }
+
+  .modal-ingredients__cocktail {
+    position: absolute;
+    top: 130px;
+    left: 320px;
+  }
+
+  .modal-cocktail__drink {
+    position: absolute;
+    top: 160px;
+    left: 320px;
+  }
+
+  .modal-wrapper__btn-drink {
+    display: block;
+    margin-left: auto;
+    margin-bottom: 28px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .backdrop .modal-drink {
+    width: 822px;
+  }
+}
